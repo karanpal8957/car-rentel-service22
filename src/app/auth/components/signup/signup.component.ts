@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormControl } from '@angular/forms';
 import { FormGroup, Validators } from '@angular/forms';
-
+//karan
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
