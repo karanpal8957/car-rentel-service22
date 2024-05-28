@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {FormBuilder,FormGroup, Validators}  from '@angular/forms'
-
+//karan
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
