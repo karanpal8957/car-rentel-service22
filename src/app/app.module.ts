@@ -13,16 +13,13 @@ import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgZorroImportsModule } from './NgZorroImportsModule';
 
 // Ng zorro imports
-import { NzSpinModule } from 'ng-zorro-antd/spin';
-import { NzFormModule } from 'ng-zorro-antd/form';
-import { NzLayoutModule } from 'ng-zorro-antd/layout';
-import { NzButtonModule } from 'ng-zorro-antd/button';
-import { NzInputModule } from 'ng-zorro-antd/input';
+
 
 registerLocaleData(en);
-
+//karan
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,11 +32,7 @@ registerLocaleData(en);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NzSpinModule,
-    NzFormModule,
-    NzLayoutModule,
-    NzButtonModule,
-    NzInputModule,
+    NgZorroImportsModule,
     ReactiveFormsModule
   ],
   providers: [
