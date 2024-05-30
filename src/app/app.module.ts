@@ -19,7 +19,7 @@ import { NgZorroImportsModule } from './NgZorroImportsModule';
 
 
 registerLocaleData(en);
-
+//karan
 @NgModule({
   declarations: [
     AppComponent,
